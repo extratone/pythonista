@@ -1,0 +1,310 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{0, 0}, {320, 480}}",
+        "class" : "ScrollView",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{0, 6}, {304.5, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "name" : "label1",
+              "enabled" : true,
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "text" : "Vereinfache...",
+              "alignment" : "left",
+              "uuid" : "CCC8C88C-BA1C-4B67-AD5D-69FBC69F9008",
+              "font_size" : 17,
+              "font_name" : "<System-Bold>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 60}, {268, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "text" : "... \"y\" zu \"ü\" bzw. \"j\" bzw. \"i\"",
+              "alignment" : "left",
+              "uuid" : "F2D69A9A-6032-43B9-8B7E-C86FFFF52A24",
+              "font_size" : 17,
+              "name" : "label10"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{270, 60}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "action" : "self.handle_action",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "uuid" : "8F39F465-ACB2-4548-B44D-DE73C010542B",
+              "value" : false,
+              "name" : "switch_simplification_y_uej"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 96}, {268, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "text" : "... \"ei\" zu \"ai\"",
+              "alignment" : "left",
+              "uuid" : "EFB17D2E-E1E5-4510-A20F-C9FDA4FCB35B",
+              "font_size" : 17,
+              "name" : "label18"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{270, 96}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "action" : "self.handle_action",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "uuid" : "EDE377E5-AC4B-45DA-8866-9B4D4FF75CAB",
+              "value" : false,
+              "name" : "switch_simplification_ei_ai"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 132}, {268, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "text" : "... \"eu\" zu \"oi\"",
+              "alignment" : "left",
+              "uuid" : "02D30D7B-CE17-485C-8AE9-39E5776225B8",
+              "font_size" : 17,
+              "name" : "label19"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{270, 132}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "action" : "self.handle_action",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "uuid" : "29009ECA-E3FC-4F0E-9A86-3B5838D13F87",
+              "value" : false,
+              "name" : "switch_simplification_eu_oi"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 168}, {268, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "text" : "... \"äu\" zu \"oi\"",
+              "alignment" : "left",
+              "uuid" : "D88BC87E-DB9B-4F97-8A8C-7AF22BAE8A1E",
+              "font_size" : 17,
+              "name" : "label22"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{270, 168}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "action" : "self.handle_action",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "uuid" : "91C3381C-11D0-4D0E-802D-AE92221B9E3A",
+              "value" : false,
+              "name" : "switch_simplification_aumlu_oi"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 240}, {268, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "text" : "... unbetontes \"er\" zu \"a\"",
+              "alignment" : "left",
+              "uuid" : "9DD727E1-D013-455C-862D-1388DB517B8A",
+              "font_size" : 17,
+              "name" : "label25"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{270, 240}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "action" : "self.handle_action",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "uuid" : "BA38BA77-D2D7-406A-93FE-FB9D28C90E45",
+              "value" : false,
+              "name" : "switch_simplification_er_a"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 276}, {268, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "F641F35E-8F53-4B07-8E4E-1E9EEB6E4B65",
+              "font_size" : 17,
+              "frame" : "{{85, 224}, {150, 32}}",
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "alignment" : "left",
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "enabled" : true,
+              "text" : "... \"ä\", \"ö\", \"ü\" zu \"ae\", \"oe\", \"ue\"",
+              "font_name" : "<System>",
+              "class" : "Label",
+              "name" : "label2",
+              "flex" : ""
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{270, 276}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "action" : "self.handle_action",
+              "enabled" : true,
+              "frame" : "{{135, 225}, {51, 31}}",
+              "class" : "Switch",
+              "uuid" : "E051D16C-E7A7-42C7-95E3-49C21AED5C76",
+              "value" : false,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "name" : "switch_simplification_expand_umlaut"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 204}, {268, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "",
+              "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "text" : "... \"oi\" zu \"oa\"",
+              "alignment" : "left",
+              "uuid" : "D88BC87E-DB9B-4F97-8A8C-7AF22BAE8A1E",
+              "name" : "label22",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : true,
+            "frame" : "{{270, 204}, {51, 31}}",
+            "class" : "Switch",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "action" : "self.handle_action",
+              "enabled" : true,
+              "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+              "uuid" : "91C3381C-11D0-4D0E-802D-AE92221B9E3A",
+              "value" : false,
+              "name" : "switch_simplification_oi_oa"
+            }
+          }
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "enabled" : true,
+          "content_width" : 320,
+          "content_height" : 480,
+          "uuid" : "05833C97-8DE9-4796-9723-B480E04DF112",
+          "custom_attributes" : "{ 'background_color' : defaults.COLOR_LIGHT_YELLOW_2 }",
+          "name" : "scrollview_combinations_simplification_vowels"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,0.925000,0.500000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "Vereinfachung (Vokale)"
+    }
+  }
+]

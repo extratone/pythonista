@@ -1,0 +1,225 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{129, 6}, {129, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "action" : "",
+          "flex" : "WTB",
+          "continuous" : true,
+          "frame" : "{{20, 103}, {200, 34}}",
+          "tint_color" : "RGBA(0.011792,0.011792,0.011792,1.000000)",
+          "uuid" : "3977B40F-9800-40E9-A4BE-7F30B2E81645",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "slider1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{129, 48}, {129, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "action" : "",
+          "flex" : "WTB",
+          "continuous" : true,
+          "frame" : "{{20, 103}, {200, 34}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "05E56B98-61D5-4351-90B2-9883059AFA49",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "slider2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{129, 90}, {129, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "action" : "",
+          "flex" : "WTB",
+          "continuous" : true,
+          "frame" : "{{20, 103}, {200, 34}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "6CCCD87B-77CD-4439-B156-143C0737CCC0",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "slider3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{97, 6}, {24, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RB",
+          "name" : "label1",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "4333BB76-81E1-42F6-9F33-EF84B8B585F7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "R",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{97, 48}, {24, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RTB",
+          "font_name" : "<System>",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "4333BB76-81E1-42F6-9F33-EF84B8B585F7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "G",
+          "name" : "label2",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{97, 90}, {24, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RTB",
+          "font_name" : "<System>",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "4333BB76-81E1-42F6-9F33-EF84B8B585F7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "B",
+          "name" : "label3",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 48}, {83, 34}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "HR",
+          "frame" : "{{70, 70}, {100, 100}}",
+          "border_color" : "RGBA(0.601415,0.601415,0.601415,1.000000)",
+          "corner_radius" : 4,
+          "class" : "ImageView",
+          "uuid" : "E0ACA9D1-3D2E-4C0D-9115-6D5E085508CC",
+          "name" : "swatch"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{266, 90}, {48, 34}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LT",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "title" : "Insert",
+          "uuid" : "AEC461CF-04C6-412F-AD24-2BEE6D8887D8",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "insert_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{266, 48}, {48, 34}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LT",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "tint_color" : "RGBA(0.056604,0.056604,0.056604,1.000000)",
+          "title" : "Copy",
+          "uuid" : "AEC461CF-04C6-412F-AD24-2BEE6D8887D8",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "copy_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {83, 34}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "flex" : "RB",
+          "segments" : "RGB|HSV",
+          "frame" : "{{60, 106}, {120, 29}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "SegmentedControl",
+          "uuid" : "965B09C7-AAB9-4C0C-A531-091D2ACBA828",
+          "name" : "mode_ctrl"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 90}, {83, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "RT",
+          "name" : "hex_label",
+          "text_color" : "RGBA(0.304245,0.304245,0.304245,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "35600A4B-AC4A-4C7F-817B-BEE21FB386A9",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "#000000",
+          "font_size" : 19,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 133}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "ColorsView",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Colors"
+    },
+    "selected" : false
+  }
+]

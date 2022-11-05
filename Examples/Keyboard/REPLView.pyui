@@ -1,0 +1,101 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{46, 0}, {356, 40}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "label1",
+          "text_color" : "RGBA(0.794811,0.794811,0.794811,1.000000)",
+          "frame" : "{{105, 123}, {150, 32}}",
+          "uuid" : "EA778CB8-FD11-46FB-B8AA-90FFDC4DBA5B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 12,
+          "font_name" : "Menlo-Regular"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{410, 2}, {76, 36}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "HL",
+          "name" : "eval_button",
+          "frame" : "{{140, 123}, {80, 32}}",
+          "title" : "  Eval",
+          "uuid" : "EDA891FC-FDD6-4594-8DB7-A22B070D1C68",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(1.000000,1.026144,1.019608,1.000000)",
+          "class" : "Button",
+          "font_size" : 15,
+          "image_name" : "iob:play_24"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{494, 2}, {44, 36}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "HL",
+          "border_width" : 0,
+          "image_name" : "iob:help_circled_24",
+          "frame" : "{{140, 123}, {80, 32}}",
+          "title" : "",
+          "uuid" : "EDA891FC-FDD6-4594-8DB7-A22B070D1C68",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(1.000000,1.026144,1.019608,1.000000)",
+          "class" : "Button",
+          "name" : "help_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{2, 2}, {36, 36}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "HR",
+          "frame" : "{{140, 123}, {80, 32}}",
+          "title" : " >>>",
+          "uuid" : "EDA891FC-FDD6-4594-8DB7-A22B070D1C68",
+          "corner_radius" : 4,
+          "border_color" : "RGBA(1.000000,1.026144,1.019608,1.000000)",
+          "class" : "Button",
+          "font_bold" : true,
+          "font_size" : 13,
+          "name" : "cmd_button"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {580, 40}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "REPLView",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : ""
+    },
+    "selected" : false
+  }
+]
